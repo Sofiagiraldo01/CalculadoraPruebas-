@@ -1,0 +1,9 @@
+Casos de pruebas:
+
+1. Suma de números: Dos números positivos a y b
+2. Suma de números: Dos números ya sea uno positivo y uno negativo a y b
+3. Resta de números: Dos números positivos que se resten a y b
+4. Resta de números: Dos números que se resten pero que uno sea negativo y el otro positivo a y b
+5. Multiplicación de números: Dos números que se multipliquen que sean positivos a y b
+6. Multiplicación de números: Dos números que se multipliquen que sean uno positivo y uno negativo a y b
+7. División de números: Dos números positivos que se dividen a y b
