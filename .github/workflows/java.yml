@@ -1,0 +1,39 @@
+name: Pipeline Java
+
+on:
+
+  push:
+
+    branches:
+
+      - main
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Clonar repositorio
+
+        uses: actions/checkout@v4
+
+      - name: Instalar Java
+
+        uses: actions/setup-java@v4
+
+        with:
+
+          distribution: 'temurin'
+
+          java-version: '17'
+
+      - name: Compilar
+
+        run: javac Calculadora.java
+
+      - name: Ejecutar
+
+        run: java Calculadora
