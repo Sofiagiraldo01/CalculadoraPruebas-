@@ -32,8 +32,8 @@ jobs:
 
       - name: Compilar
 
-        run: javac Calculadora.java
+        run: javac src/Calculadora.java
 
       - name: Ejecutar
 
-        run: java Calculadora
+        run: java -cp src Calculadora
